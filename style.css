@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+body > div{
+    width: 1200px;
+    height: 850px;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin: 30px auto auto;
+    border-radius: 20px;
+    padding: 100px 80px;
+}
+
+header{
+    color: rgb(8,220,4);
+    text-align: center;
+}
+
+.logo{
+    height: 120px;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(8,220,4);
+}
+
+nav button{
+    margin:10px 0px 10px;
+}
+
+article{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+h2{
+    display: inline;
+    margin-left: 5px;
+}
+
+.carica{
+    background-color: rgb(30, 195, 30);
+    border-radius: 4px;
+    height: 30px;
+    width: 60%;
+}
+
+.media{
+    background-color: rgb(245, 180, 83);
+    border-radius: 4px;
+    height: 30px;
+    width: 35%;
+}
+
+.scarica{
+    background-color: rgb(190, 65, 65);
+    border-radius: 4px;
+    height: 30px;
+    width: 18%;
+}
